@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WE2 — Desarrollo de software con IA</title>
+  <meta name="description" content="WE2 es un estudio de desarrollo de software con inteligencia artificial. Diseñamos, construimos y lanzamos productos digitales usando IA en cada etapa.">
+  <meta name="theme-color" content="#0C141B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WE2 — Desarrollo de software con IA">
+  <meta property="og:description" content="We2 we are efficiency to outcome. Estudio de desarrollo de software con inteligencia artificial.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Instrument+Sans:wght@400..700&amp;family=Outfit:wght@400..800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!--
+  Isotipo "Cruce": reconstruido desde la geometría de la hoja de marca
+  (grosor 12, desfase 20, cruce en 52,5 · 50). Es provisional: cuando estén
+  los SVG que escribe assets/gen_logo.py, se reemplazan estos dos símbolos.
+-->
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="iso-color" viewBox="18.563 10.517 71.21 78.966">
+    <polygon points="23.437,10.517 89.773,40 23.437,69.483 18.563,58.517 60.227,40 18.563,21.483" fill="#62A2B2"/>
+    <polygon points="23.437,30.517 89.773,60 23.437,89.483 18.563,78.517 60.227,60 18.563,41.483" fill="#1F4B5A"/>
+    <polygon points="37.727,50 52.5,43.434 67.273,50 52.5,56.566" fill="#133C4A"/>
+  </symbol>
+  <symbol id="iso-blanco" viewBox="18.563 10.517 71.21 78.966">
+    <polygon points="23.437,10.517 89.773,40 23.437,69.483 18.563,58.517 60.227,40 18.563,21.483" fill="#A8B0B3"/>
+    <polygon points="23.437,30.517 89.773,60 23.437,89.483 18.563,78.517 60.227,60 18.563,41.483" fill="#62A2B2"/>
+    <polygon points="37.727,50 52.5,43.434 67.273,50 52.5,56.566" fill="#2A8094"/>
+  </symbol>
+</svg>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="#inicio" aria-label="WE2, inicio">
+      <svg class="logo__iso" aria-hidden="true"><use href="#iso-color"/></svg>
+      <span class="logo__word">WE<span class="logo__two">2</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="nav-toggle__label">Menú</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" id="menu" aria-label="Principal">
+      <a class="site-nav__link" href="#servicios">Qué hacemos</a>
+      <a class="site-nav__link" href="#ia">Cómo trabajamos</a>
+      <a class="site-nav__link" href="#proyectos">Proyectos</a>
+      <a class="site-nav__link" href="#nosotros">Nosotros</a>
+      <a class="btn btn--small" href="#contacto">Conversemos</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <section class="hero" id="inicio">
+    <div class="container hero__inner">
+      <div class="hero__head">
+        <p class="eyebrow">Desarrollo de software con IA</p>
+        <h1 class="hero__title" lang="en"><span class="hero__brand">We2</span> we are efficiency to outcome.</h1>
+      </div>
+      <div class="hero__body">
+        <div class="hero__intro">
+          <p class="lead">Somos un estudio de desarrollo de software con inteligencia artificial. Diseñamos, construimos y lanzamos productos digitales usando IA en cada etapa.</p>
+          <div class="actions">
+            <a class="btn" href="#contacto">Conversemos</a>
+            <a class="link-arrow" href="#proyectos">Ver proyectos
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="now">
+          <div class="now__head">
+            <span>Ahora en desarrollo</span>
+            <span>6 proyectos</span>
+          </div>
+          <ol class="now__list">
+            <li><span class="now__n">01</span>MiDosis</li>
+            <li><span class="now__n">02</span>Semáforo Inmobiliario</li>
+            <li><span class="now__n">03</span>Bot Anti-Phishing</li>
+            <li><span class="now__n">04</span>Monitor de Ofertas</li>
+            <li><span class="now__n">05</span>Validador WCAG</li>
+            <li><span class="now__n">06</span>Contrato de Arriendo</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--line" id="servicios">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Qué hacemos</p>
+        <h2 class="section__title">De la idea al producto funcionando.</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4" width="13" height="10" rx="2"/><path d="M6 18h6"/><path d="M9 14v4"/><rect x="16" y="9" width="5.5" height="11" rx="1.5"/></svg>
+          </div>
+          <h3 class="card__title">Productos web y móviles</h3>
+          <p>Aplicaciones completas, del diseño a la publicación: apps móviles, plataformas web y los servicios que las sostienen.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="8" width="15" height="11" rx="3"/><path d="M12 8V5"/><circle cx="12" cy="3.8" r="1.2"/><path d="M9.5 12.5v2"/><path d="M14.5 12.5v2"/><path d="M2.5 12.5v3"/><path d="M21.5 12.5v3"/></svg>
+          </div>
+          <h3 class="card__title">Agentes y automatización</h3>
+          <p>Bots y agentes que hacen el trabajo repetitivo: revisar, clasificar y avisar a tiempo.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="7.5" ry="3"/><path d="M4.5 6v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3V6"/><path d="M4.5 12v6c0 1.66 3.36 3 7.5 3s7.5-1.34 7.5-3v-6"/></svg>
+          </div>
+          <h3 class="card__title">Datos y monitoreo</h3>
+          <p>Captura y análisis de información pública para convertirla en alertas, reportes y decisiones.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="ia">
+    <div class="container">
+      <div class="split split--end">
+        <div class="section__head">
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2 class="section__title">Desarrollamos con IA de principio a fin.</h2>
+        </div>
+        <p class="lead lead--small">Trabajamos con modelos y agentes de IA para diseñar, programar, probar y documentar. Así, un equipo pequeño puede construir y mantener varios productos a la vez. Las decisiones y la revisión final siempre son nuestras.</p>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <span class="step__n">01</span>
+          <h3 class="step__title">Diseñar</h3>
+          <p>Convertimos la idea en pantallas y prototipos que se pueden probar antes de construir el producto.</p>
+        </li>
+        <li class="step">
+          <span class="step__n">02</span>
+          <h3 class="step__title">Construir</h3>
+          <p>Programamos junto a agentes de IA. Nosotros definimos la arquitectura, el alcance y el rumbo.</p>
+        </li>
+        <li class="step">
+          <span class="step__n">03</span>
+          <h3 class="step__title">Lanzar</h3>
+          <p>Pruebas, revisión humana y publicación. Nada llega a producción sin pasar por nosotros.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="proyectos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Proyectos</p>
+        <h2 class="section__title">En esto estamos trabajando ahora.</h2>
+      </div>
+      <ol class="projects">
+        <li class="project">
+          <span class="project__n">01</span>
+          <h3 class="project__name">MiDosis</h3>
+          <p class="project__desc">App móvil para pacientes en tratamiento con análogos de GLP-1. Los datos de salud se guardan cifrados solo en el dispositivo.</p>
+          <span class="project__tag">App móvil · Salud</span>
+        </li>
+        <li class="project">
+          <span class="project__n">02</span>
+          <h3 class="project__name">Semáforo Inmobiliario</h3>
+          <p class="project__desc">Evalúa la compra de una propiedad para arrendar en Chile y entrega un veredicto verde, amarillo o rojo, con datos de mercado, conectividad y seguridad del sector.</p>
+          <span class="project__tag">Datos · Inmobiliario</span>
+        </li>
+        <li class="project">
+          <span class="project__n">03</span>
+          <h3 class="project__name">Bot Anti-Phishing</h3>
+          <p class="project__desc">Recibe la captura de un mensaje sospechoso, extrae el enlace por OCR o código QR y responde con un veredicto de riesgo. Avisa y educa.</p>
+          <span class="project__tag">Bot · Seguridad</span>
+        </li>
+        <li class="project">
+          <span class="project__n">04</span>
+          <h3 class="project__name">Monitor de Ofertas</h3>
+          <p class="project__desc">Detecta descuentos altos en el retail chileno y los notifica por Discord apenas aparecen, sin repetir.</p>
+          <span class="project__tag">Monitoreo · Retail</span>
+        </li>
+        <li class="project">
+          <span class="project__n">05</span>
+          <h3 class="project__name">Validador de Accesibilidad WCAG</h3>
+          <p class="project__desc">Revisa sitios web contra las pautas WCAG y entrega guías de corrección en español, desde una API y una app móvil.</p>
+          <span class="project__tag">Web y móvil · Accesibilidad</span>
+        </li>
+        <li class="project">
+          <span class="project__n">06</span>
+          <h3 class="project__name">Contrato de Arriendo</h3>
+          <p class="project__desc">Plataforma para generar contratos de arriendo en Chile conforme a la Ley 18.101, con firma electrónica avanzada y autorización notarial online.</p>
+          <span class="project__tag">Plataforma web · Legal</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="nosotros">
+    <div class="container split split--center">
+      <div class="section__head about__text">
+        <p class="eyebrow">Nosotros</p>
+        <h2 class="section__title">Somos dos.</h2>
+        <p class="lead lead--small">WE2 es un equipo de dos personas. Trabajamos juntos en cada proyecto, sin intermediarios: conversas directamente con quienes lo diseñan y lo construyen.</p>
+      </div>
+      <div class="about__mark">
+        <svg role="img" aria-label="Isotipo de WE2"><use href="#iso-color"/></svg>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="section--dark site-footer" id="contacto">
+  <div class="container">
+    <div class="contact">
+      <h2 class="contact__title">¿Tienes un proyecto en mente?</h2>
+      <p class="lead lead--small">Cuéntanos qué necesitas. Te respondemos nosotros mismos.</p>
+      <div class="actions">
+        <a class="btn btn--on-dark" href="mailto:contacto@we2.cl">Conversemos</a>
+        <a class="contact__mail" href="mailto:contacto@we2.cl">contacto@we2.cl</a>
+      </div>
+    </div>
+    <div class="site-footer__bar">
+      <div class="site-footer__brand">
+        <span class="logo logo--small">
+          <svg class="logo__iso" aria-hidden="true"><use href="#iso-blanco"/></svg>
+          <span class="logo__word">WE<span class="logo__two">2</span></span>
+        </span>
+        <span class="site-footer__legal">© 2026 WE2 · Desarrollo de software con IA</span>
+      </div>
+      <nav class="site-footer__nav" aria-label="Pie de página">
+        <a href="#servicios">Qué hacemos</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

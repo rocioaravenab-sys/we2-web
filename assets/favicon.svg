@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Isotipo "Cruce", sin fondo. Reconstrucción provisional desde la hoja de marca:
+       reemplazar por el SVG que escribe assets/gen_logo.py. -->
+  <polygon points="23.437,10.517 89.773,40 23.437,69.483 18.563,58.517 60.227,40 18.563,21.483" fill="#62A2B2"/>
+  <polygon points="23.437,30.517 89.773,60 23.437,89.483 18.563,78.517 60.227,60 18.563,41.483" fill="#1F4B5A"/>
+  <polygon points="37.727,50 52.5,43.434 67.273,50 52.5,56.566" fill="#133C4A"/>
+</svg>
