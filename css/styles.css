@@ -551,6 +551,18 @@ footer[id] {
   letter-spacing: -0.02em;
 }
 
+.project__name a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--teal-dark);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.project__name a:hover {
+  color: var(--teal-dark);
+}
+
 .project__desc {
   flex: 2 1 360px;
   min-width: 0;
